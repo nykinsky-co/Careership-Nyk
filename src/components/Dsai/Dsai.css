@@ -1,0 +1,316 @@
+.dsaiContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-text p{
+  margin: 30px;
+}
+
+.dsai11 {
+  flex: 1;
+  display: flex;
+  flex-direction: reverse;
+  margin: 140px;
+  gap: 40px;
+}
+
+.dsai11 h3{
+  color: transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, Red, #5356FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.dsai11 img {
+  width: 40%;
+}
+
+.dsai-right h1 p h3 {
+  text-align: justify;
+  color: white;
+  
+}
+
+
+.dsai2 {
+  height: 150px;
+  display: flex;
+  background-color:#FF6969;
+  margin-left: 80px;
+  margin-right: 80px;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.dsai2 p{
+  color: white;
+
+}
+.dsai2-content p h3{
+  color: white;
+}
+
+
+.dsai3 {
+  display: flex;
+  gap: 80px;
+  margin: 120px;
+}
+
+.dsai3 h1 {
+  margin-left: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, Red, #5356FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.dsai3 p {
+  margin: 30px;
+  color: transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, Red, #5356FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.dsai4 {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 200px;
+}
+
+.dsai4 h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: transparent;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, Red, #5356FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.dsai4 p {
+  margin-bottom: 30px;
+}
+
+.dsai4-card {
+  display: flex;
+}
+
+.dsai4-card h1 {
+  margin: 30px;
+  color: transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, Red, #5356FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+
+.applyform {
+  width: 400px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.applyform div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.applybutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Media Query for tablets */
+@media screen and (max-width: 768px) {
+  .dsai11 {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .dsai11 img {
+    width: 100%;
+  }
+
+  .dsai2 {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .dsai2-content {
+    text-align: center;
+  }
+
+  .dsai3 {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .dsai3-left,
+  .dsai3-right {
+    text-align: center;
+  }
+
+  .dsai4 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Media Query for mobile devices */
+/* Media Query for tablets */
+@media screen and (max-width: 768px) {
+  .dsaiContainer {
+    margin: 0 20px;
+  }
+
+  .dsai11 {
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  .dsai11 img {
+    width: 100%;
+  }
+
+  .dsai2 {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .dsai2-content {
+    text-align: center;
+  }
+
+  .dsai3 {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .dsai3-left,
+  .dsai3-right {
+    text-align: center;
+  }
+
+  .dsai4 {
+    margin: 20px 0 50px 0;
+  }
+}
+
+/* Media Query for mobile devices */
+@media screen and (max-width: 480px) {
+  .dsaiContainer {
+    padding-top: 50px;
+    margin: 0 10px;
+  }
+
+  .dsai1 {
+    margin: 20px 0;
+  }
+
+  .dsai11 {
+    margin: 20px 0;
+  }
+ .dsai2{
+  height: 600px;
+  text-align: center;
+  align-items: center;
+  
+ }
+  .dsai2-content {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .dsai2-content h4 {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .dsai2-content p{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .dsai3 {
+    margin: 20px 0;
+  }
+
+  .dsai3-left,
+  .dsai3-right {
+    text-align: center;
+  }
+
+  .dsai4 {
+    margin: 20px 0 50px 0;
+  }
+
+  .applyform {
+    width: 100%;
+    margin: 0;
+  }
+
+  .applyform div {
+    margin-bottom: 10px;
+  }
+
+  .applybutton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  
+  .dsai4-card{
+    display: block;
+  }
+  
+}

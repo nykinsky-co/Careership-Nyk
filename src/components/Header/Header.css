@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.header{
+    background-color: #5356FF;
+    /* color: transparent; 
+    text-decoration: none; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    background-image: linear-gradient(to right, Red, #5356FF); 
+    background-clip: text; 
+    -webkit-background-clip: text;  */
+}
+
+.button{
+    background-color: linear-gradient(to right, Red, #5356FF);
+}
+
+.login{
+    color: #5356FF;
+    background-color: aqua;
+}

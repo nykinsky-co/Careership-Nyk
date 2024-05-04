@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  color: transparent; 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  background-image: linear-gradient(to right, Red, #5356FF); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  font-weight: bold;
+}
+
+.login-form input {
+  color: transparent; 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  background-image: linear-gradient(to right, Red, #5356FF); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginbtn{
+  width: 100%;
+ 
+  color: transparent; 
+  
+ 
+  background-image: linear-gradient(to right, Red, #5356FF); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  border-color: #007bff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-form h2{
+  text-align: center;
+  color: transparent; 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  background-image: linear-gradient(to right, Red, #5356FF); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+}
+ .login-form p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-form p a {
+  color: #007bff;
+}

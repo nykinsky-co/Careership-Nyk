@@ -1,0 +1,23 @@
+.earlyleadcontainer{
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+}
+
+.earlyleadcontainer h1{
+    color: transparent; 
+    text-decoration: none; 
+    padding: 8px 12px; 
+    border-radius: 5px; 
+    background-image: linear-gradient(to right, Red, #5356FF); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    text-align: center;
+}
+
+.earlyleadcontainer img{
+    height: 300px;
+    margin: auto;
+
+}

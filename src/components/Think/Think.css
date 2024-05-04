@@ -1,0 +1,285 @@
+.thinkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-text p {
+    margin: 30px;
+  }
+  
+  .think11 {
+    flex: 1;
+    display: flex;
+    flex-direction: reverse;
+    margin: 140px;
+    gap: 40px;
+  }
+  
+  .think11 h3 {
+    color: transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, Red, #5356FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .think11 img {
+    width: 40%;
+  }
+  
+  .think2 {
+    height: 150px;
+    display: flex;
+    background-color: #FF6969;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .think2 p {
+    color: white;
+  }
+  
+  .think2-content p h3 {
+    color: white;
+  }
+  
+  .think3 {
+    display: flex;
+    gap: 80px;
+    margin: 120px;
+  }
+  
+  .think3 h1 {
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, Red, #5356FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .think3 p {
+    margin: 30px;
+    color: transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, Red, #5356FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .think4 {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 200px;
+  }
+  
+  .think4 h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: transparent;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, Red, #5356FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .think4 p {
+    margin-bottom: 30px;
+  }
+  
+  .think4-card {
+    display: flex;
+  }
+  
+  .think4-card h1 {
+    margin: 30px;
+    color: transparent;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, Red, #5356FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+  }
+  
+  .applyform {
+    width: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .applyform div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .applybutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  @media screen and (max-width: 768px) {
+    .thinkContainer {
+      margin: 0 20px;
+    }
+  
+    .think11 {
+      flex-direction: column;
+      margin: 20px 0;
+      gap: 20px;
+    }
+  
+    .think11 img {
+      width: 100%;
+    }
+  
+    .think2 {
+      flex-direction: column;
+      gap: 20px;
+      margin: 20px 0;
+    }
+  
+    .think2-content {
+      text-align: center;
+    }
+  
+    .think3 {
+      flex-direction: column;
+      gap: 20px;
+      margin: 20px 0;
+    }
+  
+    .think3 h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+  
+    .think3 p {
+      margin: 0;
+      font-size: 16px;
+    }
+  
+    .applyform {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .applyform div {
+      margin-bottom: 10px;
+    }
+  
+    .applyform button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .think4 {
+      margin: 20px 0 50px 0;
+    }
+  }
+  
+  /* Media Query for mobile devices */
+  @media screen and (max-width: 480px) {
+    .thinkContainer {
+      padding-top: 50px;
+      margin: 0 10px;
+    }
+  
+    .think1 {
+      margin: 20px 0;
+    }
+  
+    .think11 {
+      margin: 20px 0;
+    }
+  
+    .think2 {
+      height: auto;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .think2-content {
+      flex-direction: column;
+      gap: 20px;
+      margin: 20px 0;
+    }
+  
+    .think2-content h4,
+    .think2-content p {
+      text-align: center;
+      margin: 0 20px;
+    }
+  
+    .think3 {
+      margin: 20px 0;
+    }
+  
+    .think3 h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+  
+    .think3 p {
+      margin: 0;
+      font-size: 16px;
+    }
+  
+    .applyform {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .applyform div {
+      margin-bottom: 10px;
+    }
+  
+    .applyform button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
+    .think4 {
+      /* margin: 20px 0 50px 0; */
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .think4-card{
+      flex-direction: column;
+    }
+  }
+  
